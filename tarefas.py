@@ -218,4 +218,4 @@ def main(page: Page):
     page.add(app)
 
 
-flet.app(target=main, view=flet.WEB_BROWSER)
+flet.app(target=main, view=flet.WEB_BROWSER, host='0.0.0.0', port=8000)
